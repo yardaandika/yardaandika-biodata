@@ -1,0 +1,64 @@
+body {
+  background: #2980b9;
+  background: linear-gradient(to right, #ffffff, #6dd4fa8b, #2980b9);
+}
+
+.navbar :hover {
+  color: rgb(91, 91, 255);
+}
+
+.logo {
+  font-size: 1rem;
+  padding-top: 20px;
+  width: 60px;
+}
+
+.collapse :hover {
+  color: #2980b9;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.profileImage {
+  width: 200px;
+}
+
+.profile h6 {
+  transform: translateY(-5px);
+}
+
+.biodata {
+  background: linear-gradient(#ffffff, #ffffffb0, #297fb900);
+  transform: translateY(-9px);
+  height: fit-content;
+  padding-bottom: 150px;
+}
+
+.row {
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.footer {
+  background-color: #fff;
+  transform: translateY(-2px);
+  padding-bottom: 50px;
+}
+
+.contact a {
+  width: 20px;
+  font-size: 25px;
+  padding-inline: 10px;
+  padding-bottom: 30px;
+}
+
+.watermark {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
